@@ -12,7 +12,7 @@
 <script
 	src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script
-	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=04a1c15e89e8b9d355902843f002048b&libraries=services"></script>
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=&libraries=services"></script>
 
 
 <!--

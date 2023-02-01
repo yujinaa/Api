@@ -30,7 +30,7 @@ public class publicApiController {
 	public void api(Model model) throws IOException {
 		
 		try{ 
-			StringBuilder urlBuilder = new StringBuilder(""); /*URL*/
+			StringBuilder urlBuilder = new StringBuilder("http://openapi.seoul.go.kr:8088/인증키/json/SeoulPublicLibraryInfo/1/5/"); /*URL*/
 			urlBuilder.append("/" +  URLEncoder.encode("6f6344515963687a35336577734644","UTF-8") ); /*인증키 (sample사용시에는 호출시 제한됩니다.)*/
 			urlBuilder.append("/" +  URLEncoder.encode("json","UTF-8") ); /*요청파일타입 (xml,xmlf,xls,json) */
 			urlBuilder.append("/" + URLEncoder.encode("CardSubwayStatsNew","UTF-8")); /*서비스명 (대소문자 구분 필수입니다.)*/
